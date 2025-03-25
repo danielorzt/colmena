@@ -1,0 +1,15 @@
+@import "tailwindcss";
+/* O si prefieres el enfoque modular: */
+/* @import "tailwindcss/utilities"; */
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: theme('colors.gray.100');
+}
+::-webkit-scrollbar-thumb {
+  background: theme('colors.blue.500');
+  border-radius: 9999px;
+}

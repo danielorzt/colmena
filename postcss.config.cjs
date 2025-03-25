@@ -1,0 +1,1 @@
+module.exports = {} // Ya no necesitas configuración de PostCSS

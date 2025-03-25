@@ -1,0 +1,35 @@
+# Directorios
+**/node_modules
+**/dist
+**/build
+**/.next
+**/.cache
+**/.idea
+
+# Archivos generados
+*.log
+*.lock
+*.min.*
+*.svg
+*.jpg
+*.png
+*.gif
+
+# Configuraciones
+.eslintcache
+.env*
+!.env.example
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de documentación
+**/README.md
+**/CHANGELOG.md
+**/LICENSE.md
+
+# Archivos de configuración específicos (opcional)
+**/tsconfig.json
+**/package.json
+**/package-lock.json
